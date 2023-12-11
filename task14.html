@@ -1,0 +1,594 @@
+<html>
+<head>
+<style>
+*
+{
+margin:0px;
+padding:0px;
+}
+#akash
+{
+height:700px;
+background:url("img/ok.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+
+}
+#main
+{
+background:rgba(0,0,0,0.6);
+height:100%;
+width:100%;
+background-size:cover;
+}
+#main1
+{
+height:80px;
+width:1050px;
+background:white;
+position:absolute;
+top:70px;
+left:200px;
+border-radius:10px;
+}
+#p1
+{
+height:80px;
+width:120px;
+background:white;
+border-radius:10px;
+float:left;
+color:gray;
+font-size:40px;
+font-family:courier;
+text-align:center;
+line-height:80px;
+}
+#p1 img
+{
+position:absolute;
+top:25px;
+left:120px;
+cursor:pointer;
+}
+#p1 img:hover
+{
+transform:scale(1.5);
+}
+#u
+{
+height:80px;
+width:770px;
+background:white;
+border-radius:10px;
+float:left;
+}
+#u ul li
+{
+list-style-type:none;
+width:80px;
+height:10px;
+margin:28px 15px;
+padding:8px;
+float:left;
+text-align:center;
+line-height:2px;
+cursor:pointer;
+font-size:16px;
+font-weight:bold;
+
+}
+#u ul li:hover
+{
+color:#538fcd;
+border:1px solid #538fcd;
+}
+#p2
+{
+height:80px;
+width:160px;
+background:#538fcd;
+border-radius:10px;
+float:left;
+font-size:23px;
+font-weight:bold;
+color:white;
+font-family:sans-serif;
+text-align:center;
+line-height:70px;
+}
+#q1
+{
+position:absolute;
+top:35px;
+left:200px;
+}
+#q2
+{
+color:white;
+font-size:16px;
+text-align:center;
+position:absolute;
+top:38px;
+left:230px;
+}
+#q3
+{
+position:absolute;
+top:35px;
+left:380px;
+}
+#q4
+{
+color:white;
+font-size:16px;
+text-align:center;
+position:absolute;
+top:38px;
+left:420px;
+}
+#n1
+{
+position:absolute;
+top:20px;
+right:480px;
+cursor:pointer;
+}
+#n1:hover
+{
+transform:scale(1.2);
+}
+#n2
+{
+position:absolute;
+top:20px;
+right:420px;
+cursor:pointer;
+}
+#n2:hover
+{
+transform:scale(1.2);
+}
+#n3
+{
+position:absolute;
+top:20px;
+right:360px;
+cursor:pointer;
+}
+#n3:hover
+{
+transform:scale(1.2);
+}
+#n4
+{
+position:absolute;
+top:20px;
+right:300px;
+boder-radius:50%;
+cursor:pointer;
+}
+#n4:hover
+{
+transform:scale(1.2);
+}
+#f1
+{
+font-size:40px;
+color:#dcdcdc;
+font-family:Sans-serif;
+position:absolute;
+bottom:350px;
+left:200px;
+}
+#f2
+{
+font-size:55px;
+color:#b5d8fd;
+font-weight:bold;
+position:absolute;
+top:400px;
+left:200px;
+text-shadow:3px 4px black;
+}
+#f3
+{
+font-size:20px;
+color:skyblue;
+position:absolute;
+bottom:250px;
+left:220px;
+width:600px;
+text-shadow:5px 5px 5px black
+}
+#w1
+{
+height:50px;
+width:200px;
+background:#45c3e9;
+color:white;
+text-align:center;
+font-size:25px;
+border-radius:5px;
+line-height:45px;
+box-shadow:0px 0px 3px 3px skyblue;
+margin:450px 205px;
+cursor:pointer;
+}
+#main3
+{
+width:1340px;
+height:650px;
+background:white;
+text-align:center;
+padding-left:170px;
+}
+#ak
+{
+font-size:40px;
+position:absolute;
+left:490px;
+top:750px;
+height:100px; 
+width:600px;
+font-family:sans-serif;
+}
+#akash1
+{
+height:280px;
+width:360px;
+float:left;
+margin:-80px 25px;
+border:3px solid skyblue;
+}
+.verma
+{
+height:180px;
+width:300px;
+background:#f4f4f4;
+position:absolute;
+left:230px;
+top:1120px;
+border-top:5px solid skyblue;
+}
+.verma1
+{
+height:180px;
+width:300px;
+background:#f4f4f4;
+position:absolute;
+left:640px;
+top:1120px;
+border-top:5px solid skyblue;
+}
+.verma2
+{
+height:180px;
+width:300px;
+background:#f4f4f4;
+position:absolute;
+right:160px;
+top:1120px;
+border-top:5px solid skyblue;
+}
+#main4
+{
+height:600px;
+width:1510px;
+background:url("img/b1.jpg");
+margin-left:5px;
+background-size:100% 100%; 
+}
+#ram1
+{
+height:100%;
+width:100%;
+background:rgba(73,183,216,0.9)
+}
+#ak1
+{
+font-size:40px;
+position:absolute;
+left:640px;
+top:1400px;
+height:100px; 
+width:600px;
+font-family:sans-serif;
+font-weight:bold;
+color:white;
+}
+#ram2
+{
+width:500px;
+height:350px; 
+background:white;
+margin-left:220px;
+margin-top:150px;
+border:5px solid white;
+}
+#main4
+{
+width:1510px;
+height:650px;
+background:white;
+}
+.bpart
+{
+width:350px;
+height:450px;
+background:#f8f8f8;
+float:left;
+margin-left:120px;
+margin-top:120px;
+}
+#ak3
+{
+font-size:30px;
+position:absolute;
+left:640px;
+top:2030px;
+height:100px; 
+width:600px;
+font-family:sans-serif;
+font-weight:bold;
+color:BLACK;
+}
+.main5
+{
+height:600px;
+width:1515px;
+}
+#main6
+{
+width:100%;
+height:50px;
+background:black;
+}
+#dpart
+{
+height:600px;
+width:610px;
+background:url("img/map.jpg");
+background-size:100% 100%;
+float:left;
+}
+#dpart1
+{
+width:905px;
+background:#d0ebf2;
+height:600px;
+float:left;
+}
+#dp
+{
+height:400px;
+width:410px;
+background:rgba(128,128,128,0.8);
+padding:100px;	
+}
+.dp1
+{
+height:420px;
+width:450px;
+background:#dedede;
+}
+#tum
+{
+color:#3f88ce;
+font-size:50px;
+font-family:times;
+position:absolute;
+right:480px;
+top:2720px;
+}
+input,select
+{
+height:40px;
+width:350px;
+margin:20px;
+padding:10px;
+font-size:15px;
+}
+#easy1
+{
+height:400px;
+margin-top:140px;
+margin-left:60px;
+width:800px;
+}
+textarea
+{
+height:200px;
+width:750px;
+resize:none;
+margin:20px;
+font-size:16px;
+padding:10px;
+}
+button
+{
+width:350px;
+height:45px;
+margin-left:20px;
+font-size:20px;
+color:white;
+background:#3f88ce;
+border:none;
+border-radius:30px;
+}
+#as1
+{
+font-family:arial;
+font-size:20px;
+margin-left:50px;
+margin-top:20px;
+font-weight:bold;
+}
+#as2
+{
+heigth:70px;
+width:290px;
+border:1px solid black;
+margin-left:50px;
+margin-top:20px;
+padding:5px;
+}
+.ok
+{
+border-radius:45%;
+margin:5px;
+cursor:pointer;
+}
+.ok:hover
+{
+transform:scale(1.2);
+}
+#ok1
+{
+margin-left:970px;
+margin-top:-10px;
+}
+</style>
+</head>
+<body>
+<div id="akash">
+<div id="main">
+			   
+<span id="q1"><img src="img/c1.png" width="30px" height="30px"></span>&nbsp;<span id="q2">+91 7007078528</span>
+<span id="q3"><img src="img/x1.png" width="30px" height="30px"></span>&nbsp;<span id="q4">akashverma9050@gmail.com</span>
+<div id="ok1"><img src="img/facebook.png" height="50px" width="60px" class="ok"><img src="img/google.png" height="50px" width="55px" class="ok"><img src="img/t.png" height="50px" width="60px" class="ok"><img src="img/in.png" height="50px" width="60px" class="ok"></div>
+<div id="main1">  
+<div id="p1"><font size="6" color="#538fcd">DG</font>LAW
+<img src="img/s1.png" height="30px" width="30px">
+
+</div>
+<div id="u">
+<ul>
+<li>Home</li>
+<li>Attorney</li>
+<li>Family </li>
+<li style="width:88px;">CivilLitigation</li>
+<li>Criminal</li>
+<li>Contact Us</li>
+</ul>
+</div>
+<div id="p2"> GET A QUATS</div>
+</div>
+<span id="f1"> YOU DESERVE  THE BEST</span><span id="f2">DEFFENCE LAW-YEAR</span>
+<p id="f3">Renowed for the quality of work the lawyear our team provide the  best lagal advices</p>
+<div id="w1"> Contact Us </div>
+</div>
+</div>
+
+<div id="main3">
+<hr>
+<span id="ak">
+WELCOME TO DG LAW FIRM <hr color="aqua"size="5" style="width:300px; position:absolute; left:-300px; top:20px;"><hr size="5" color="aqua" style="width:300px; position:absolute; right:-300px; top:20px;">
+</span><br/><p style="margin:100px">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the<br/>  1500s,
+when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+<div id="akash1"><img src="img/f1.jpg" width="100%" height="100%"> <div class="verma"> <p style="color:#5a8fbd; font-size:30px; margin:23px; font-family:sans-serif;">Family Law</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+
+</div> </div>
+<div id="akash1"><img src="img/f2.png" width="100%" height="100%"> <div class="verma1"> 
+ <p style="color:#5a8fbd; font-size:30px; margin:23px; font-family:sans-serif;">Civil Litigation</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+</div></div>
+<div id="akash1"><img src="img/f3.jpg" width="100%" height="100%"> <div class="verma2"> 
+ <p style="color:#5a8fbd; font-size:30px; margin:23px; font-family:sans-serif;">Criminal Defense</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+
+</div></div>
+</div>
+<div id="main4"> <div id="ram1"><br/><span id="ak1">
+OUR ATTORNEY <hr color="aqua"size="5" style="width:300px; position:absolute; left:-320px; top:20px;"><hr size="5" color="aqua" style="width:300px; position:absolute; right:-30px; top:20px;">
+</span>
+<div id="ram2"> <img src="img/e1.jpg" height="100%" width="100%"></div><p style="font-size:20px; color:white; font-family:sans-serif; position:absolute; top:1520px; right:250px;">Lorem Ipsum is simply dummy text of the printing and<br/> typesetting industry. Lorem Ipsum has been.......</p>
+<p style="font-size:15px; color:white; font-family:sans-serif; position:absolute; top:1590px; right:200px;">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+<br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/>
+ when an unknown printer took a galley of type and scrambled it to make a type<br/>
+ specimen book. It has survived not only five centuries, but also the leap into <br/>
+ electronic typesetting, remaining essentially unchanged. It was popularised in <br/>
+ the 1960s with the release of Letraset sheets containing</p>
+ <h2 style="color:white; font-family:arial; margin-top:-160px; margin-left:780px;"> Reliable & Trustworthy:</h2>
+ <p style="color:white; margin-left:780px; margin-top:15px;" >Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> 
+ Lorem Ipsum has been the industry's standard dummy text ever since the<br/>
+ 1500s, when an unknown printer took a galley of type</p><br/>
+ <input type="button" value="Read More.." style="color:#53b7d6;background:white; font-size:25px;
+ border:none; box-shadow:0px 0px 2px 2px; border-radius:30px; width:200px; margin-left:780px; height:50px;">
+</div>
+</div>
+<div id="main4"> <span id="ak3">
+LATEST FROM BLOG <hr color="aqua"size="5" style="width:300px; position:absolute; left:-320px; top:20px;"><hr size="5" color="aqua" style="width:300px; position:absolute; right:-30px; top:20px;">
+</span>
+<div class="bpart">      
+<img src="img/d2.jpg" width="350px" height="230px"><br/><br/>
+<hr width="300px" style="margin:20px;" size="1" color="black">
+<p style="color:#5bbedc; font-size:18px; font-weight:bold; margin-left:30px;">Lorem Ipsum is simply dummy</p>
+<p style=" width:350px; height:200px; color:black; font-size:16px; margin:12px;">
+Lorem Ipsum is simply dummy text of the printing <br/>
+and typesetting industry. Lorem Ipsum has been the<br/>
+ industry's standard dummy text ever since</p><br/>
+ <hr width="300px"  style="position:absolute; top:2525px; left:150px;" size="1" color="black">
+ </div>
+ 
+<div class="bpart">
+<img src="img/d4.jpg" width="350px" height="230px">
+<hr width="300px" style="margin:28px;" size="1" color="black">
+<p style="color:#5bbedc; font-size:18px; font-weight:bold; margin-left:30px;">Lorem Ipsum is simply dummy</p>
+<p style=" width:350px; height:200px; color:black; font-size:16px; margin:12px;">
+Lorem Ipsum is simply dummy text of the printing <br/>
+and typesetting industry. Lorem Ipsum has been the<br/>
+ industry's standard dummy text ever since</p><br/>
+ <hr width="300px"  style="position:absolute; top:2525px; left:620px;" size="1" color="black">
+</div>
+
+<div class="bpart">
+<img src="img/d3.jpg" width="350px" height="230px">
+<hr width="300px" style="margin:25px;"  >
+<p style="color:#5bbedc; font-size:18px; font-weight:bold; margin-left:30px;">Lorem Ipsum is simply dummy</p>
+<p style=" width:350px; height:200px; color:black; font-size:16px; margin:12px;">
+Lorem Ipsum is simply dummy text of the printing <br/>
+and typesetting industry. Lorem Ipsum has been the<br/>
+ industry's standard dummy text ever since</p><br/>
+ <hr width="300px"  style="position:absolute; top:2525px; right:125px;" size="1" color="black">
+ <span style="width:50px; height:60px; background:#022e5b; position:absolute; top:2130; left:400px; font-size:25px; font-weight:bold; text-align:center; color:white">12 Aug
+ </span>
+ <span style="width:50px; height:60px; background:#022e5b; position:absolute; top:2130; left:870px; font-size:25px; font-weight:bold; text-align:center; color:white">18 Aug
+ </span>
+ <span style="width:50px; height:60px; background:#022e5b; position:absolute; top:2130; right:125px; font-size:25px; font-weight:bold; text-align:center; color:white">30 Aug
+ </span>
+ <button style="width:250px; height:50px; font-size:25px; color:white; background:#3f88ce; border-radius:30px; border:none; position:absolute; top:2580px;left:650px;">More View Blog</button>
+</div>
+</div>
+
+<div class="main5">
+<div id="dpart"> <div id="dp"><div class="dp1"> 
+<br/> <br/><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Details:</h1>
+<hr size="4" color="skyblue" width="80px" style="margin-left:50px;">
+<p id="as1"> Please Find below contact details<br/>and<font color="#3f88ce"> Contact us today!</font></p>
+<p id="as2"> <img src="img/lo2.png" height="50" width="50" style="border-radius:55%;"> <span style="text-align:center; position:absolute; top:2925px;left:220px;font-size:16px; font-weight:bold; color:#2a61f7;">
+Plot No-43,Sector 5,Vikas Nagar,<br/>Lucknow, Uttar Pradesh 226022</span></p>
+<p id="as2"> <img src="img/c1.png" height="50" width="50" style="border-radius:55%;"><span style="text-align:center; position:absolute; top:3010px;left:220px;font-size:25px; font-weight:bold; color:#2a61f7;">(916) 596-0882</span> </p>
+<p id="as2"> <img src="img/x1.png" height="50" width="50" style="border-radius:55%;"><span style="text-align:center; position:absolute; top:3090px;left:220px;font-size:25px; font-weight:bold; color:#2a61f7;">info@gmail.com</span> </p>
+
+
+</div></div></div>
+<div id="dpart1">
+<span id="tum"> Free Consultation</span><div id="easy1">
+<input type="text"  placeholder="Name."/> <input type="text" placeholder="Phone"/><br/>
+<input type="text"  placeholder="Email"/>
+ <select><option>Family Law</option>
+ <option>DEFFENCE Law</option>
+</select>
+<br/>
+<textarea value="message"/> Enter the message </textarea>
+<button> BOOK A CONSULTATION</button>
+</div>
+</div>
+</div>
+<div id="main6"><br/><center><p style="color:white;">&copy; Copyrigth 2023 dglaw.com All right Reserved || Developed By <font color="red"> Akash Verma</font></p></center></div>
+</body>
+</html>
